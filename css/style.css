@@ -1,0 +1,93 @@
+header {
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+nav {
+    display: block;
+    position: relative;
+}
+nav li, nav a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 98, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.search input {
+    color: rgb(0, 98, 226);
+    background-color: rgba(233, 233, 233, 0.596);
+    border: none;
+    height: 39px;
+    padding: .7rem;
+    max-width: 12rem;
+    font-weight: 700;
+    font-size: .9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search span {
+    transform: translateX(-30px);
+    color: gray;
+    font-size: 1.8rem;
+}
+.navLeft li {
+    padding: 0px 1rem;
+}
+.navMid {
+    padding: 0px 11rem;
+}
+.navMid img {
+    width: 14rem;
+}
+.navRight li {
+    padding: 0px 1rem;
+}
+.mainContent {
+    margin-top: 3rem;
+}
+
+.contentRight h1 {
+    font-size: 3.45rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.contentRight img {
+    width: 19rem;
+    align-self: start;
+    margin-bottom: 1rem;
+}
+.contentRight h4 {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+.contentRight button {
+    color: white;
+    background-color: rgb(0, 89, 255);
+    padding: 0.5rem .7rem;
+    border-radius: 8px;
+    margin-right: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.contentRight button:hover {
+    border: 1px solid blue;
+}
+.bottomSVG {
+    transform: translateY(4px);
+}
+.below {
+    background-color: #ebe6e081;
+    width: 100%;
+    height: 100%;
+}
+.below h3 {
+    font-size: 2.6rem;
+    font-weight: 400;
+    align-self: start;
+}
